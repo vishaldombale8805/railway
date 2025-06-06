@@ -186,7 +186,7 @@ def main():
             book_ticket()
         elif choice == "3":
             if last_payment_method:
-                print("\n💳 Last Payment Method Used:", last_payment_method, "\n")
+                print("\n Last Payment Method Used:", last_payment_method, "\n")
             else:
                 print("\n No payment has been made yet.\n")
         elif choice == "4":
